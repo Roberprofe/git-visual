@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Prueba de API Flask</h1>
+        <button id="fetchData">Obtener Datos de Usuario</button>
+        <button id="fetchAllUsers">Obtener Todos los Usuarios</button>
+        <div>
+            <input type="text" id="userId" placeholder="Ingrese ID del usuario">
+            <button id="fetchUserById">Obtener Usuario por ID</button>
+        </div>
+        <div>
+            <input type="text" id="newUserName" placeholder="Nombre">
+            <input type="text" id="newUserLastName" placeholder="Apellido">
+            <input type="text" id="newUserPhone" placeholder="Teléfono">
+            <button id="addUser">Añadir Usuario</button>
+        </div>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
